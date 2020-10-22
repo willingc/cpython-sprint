@@ -1,0 +1,6 @@
+jupyter
+pandas
+datasette
+urllib3
+requests
+
