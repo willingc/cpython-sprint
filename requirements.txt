@@ -3,4 +3,4 @@ pandas
 datasette
 urllib3
 requests
-
+csvs-to-sqlite

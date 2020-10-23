@@ -8,7 +8,7 @@ Analyze a snapshot of bpo issues
 
 With Python 3.8+:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -19,4 +19,14 @@ Snapshot CSV as the following query for all open issues:
 ```
 https://bugs.python.org/issue?@columns=title,id,stage,creation,activity,components,assignee,status,message_count&@filter=status&@pagesize=500&@startwith=0&status=1&@dispname=all%20open
 ```
+
+## Datasette
+
+### csv to sqlite
+
+```bash
+csvs-to-sqlite issues.csv issues.db
+```
+
+### datasette
 
